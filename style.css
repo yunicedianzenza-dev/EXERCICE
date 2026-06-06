@@ -6,3 +6,40 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.marcel{
+  height: 200px;
+  width: 200px;
+  padding: 100px 60px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.marcel:hover{
+  transform: translateY(-20px);
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.eunice{
+  height: 200px;
+  width: 200px;
+  padding: 100px 60px;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.eunice:hover{
+  transform: translateY(-20px);
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+}
